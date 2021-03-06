@@ -9,15 +9,27 @@ body {
 }
 
 .app {
-   background-image: url("./assets/cold.jpg");
-   background-size: contain;
-   background-position: bottom;
+   background-image: url("./assets/weather.jpg");
+   background-size: 100% 100%;
+   background-position: cover;
    background-repeat: no-repeat;
    transition: 0.4s ease;
 }
 
-.app.warm {
-   background-image: url("./assets/warm.jpg");
+.app.summer {
+   background-image: url("./assets/summer.jpg");
+}
+
+.app.spring {
+   background-image: url("./assets/spring.jpg");
+}
+
+.app.fall {
+   background-image: url("./assets/fall.jpg");
+}
+
+.app.winter {
+   background-image: url("./assets/winter.jpg");
 }
 
 main {
