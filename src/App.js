@@ -98,6 +98,10 @@ function App() {
             ) : (
                ""
             )}
+            <div className="forecast-box">
+               Feels like: {Math.round(weather.main.feels_like)}°F with a
+               humidity of {Math.round(weather.main.humidity)}.
+            </div>
          </main>
       </div>
    );
